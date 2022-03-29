@@ -47,3 +47,8 @@ a:visited {
   text-decoration: underline #eee 1px;
   text-transform: none;
 }
+
+.blue {
+  color: #96CDFB;
+  text-decoration-color: #96CDFB;
+}
