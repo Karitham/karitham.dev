@@ -1,0 +1,38 @@
+@media (max-width: 900px) {
+  .main .body {
+    grid-template-columns: 1fr;
+  }
+  .main .right {
+    grid-row: 1;
+  }
+}
+
+.main .body {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: space-evenly;
+  align-content: center;
+  align-items: center;
+  margin-top: 10vh;
+}
+
+.main .pfp {
+  border-radius: 50%;
+  width: 30vh;
+}
+
+.main .logo {
+  height: 2rem;
+  width: 2rem;
+  display: block;
+}
+
+.main .left {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.main .right {
+  text-align: center;
+}

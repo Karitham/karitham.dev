@@ -1,0 +1,32 @@
+.whois > .cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: space-evenly;
+  align-content: center;
+  gap: 2rem;
+}
+
+.whois .contact-card {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.whois img {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  max-height: 2rem;
+}
+
+.whois .desc.cards {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+@media (max-width: 900px) {
+  .whois > .cards {
+    grid-template-columns: 1fr;
+  }
+}
