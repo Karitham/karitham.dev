@@ -36,3 +36,8 @@
     grid-row: 1;
   }
 }
+
+.main a:visited {
+  color: #96cdfb;
+  text-decoration-color: #96cdfb;
+}
