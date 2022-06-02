@@ -11,7 +11,7 @@ let doc = {
     () => "Gamer.",
     () => "Nerd.",
     () => (
-      <a href="/resume.pdf" class="blue">
+      <a href="./resume.pdf" class="blue">
         View my Resume.
       </a>
     ),
