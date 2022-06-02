@@ -1,12 +1,3 @@
-@media (max-width: 900px) {
-  .main .body {
-    grid-template-columns: 1fr;
-  }
-  .main .right {
-    grid-row: 1;
-  }
-}
-
 .main .body {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -35,4 +26,13 @@
 
 .main .right {
   text-align: center;
+}
+
+@media (max-width: 900px) {
+  .main .body {
+    grid-template-columns: 1fr;
+  }
+  .main .right {
+    grid-row: 1;
+  }
 }
