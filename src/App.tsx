@@ -3,8 +3,9 @@ import "./App.css";
 import Main from "./components/Main";
 import Projects from "./components/Projects";
 import WhoIS from "./components/WhoIS";
+import Me from "./components/Me";
 
-const components = [Main, Projects, WhoIS];
+const components = [Main, Me, Projects, WhoIS];
 
 const App: Component = () => {
   return (
