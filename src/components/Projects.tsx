@@ -49,7 +49,7 @@ export default () => {
     <div class="projects">
       <div class="body">
         <h1 class="title">{doc.Title}</h1>
-        <h2 class="sub blue">{doc.Desc}</h2>
+        <h2 class="sub text-main">{doc.Desc}</h2>
         <div class="cards">
           <For each={doc.Cards} fallback={<div>No items</div>}>
             {(c) => (

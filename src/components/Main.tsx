@@ -11,7 +11,7 @@ let doc = {
     () => "Gamer.",
     () => "Nerd.",
     () => (
-      <a href="./resume.pdf" class="blue">
+      <a href="./resume.pdf" class="text-main">
         View my Resume.
       </a>
     ),
@@ -27,7 +27,7 @@ export default () => {
       <div class="body">
         <div class="left">
           <h1 class="home-message">{doc.HomeMessage}</h1>
-          <h2 class="home-sub blue">{doc.HomeSub}</h2>
+          <h2 class="home-sub text-main">{doc.HomeSub}</h2>
           <For each={doc.HomeDesc} fallback={<div>No items</div>}>
             {(D) => <p class="home-desc">{<D />}</p>}
           </For>

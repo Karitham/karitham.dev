@@ -1,5 +1,4 @@
 import { Component, For } from "solid-js";
-import "./App.css";
 import Main from "./components/Main";
 import Projects from "./components/Projects";
 import WhoIS from "./components/WhoIS";

@@ -58,15 +58,15 @@ export default () => {
       <p class="desc">{doc.Desc}</p>
       <div class="cards">
         <div class="sub">
-          <h3 class="name blue">{doc.Where.Title}</h3>
+          <h3 class="name text-main">{doc.Where.Title}</h3>
           <p class="desc">{doc.Where.Desc}</p>
         </div>
         <div class="sub">
-          <h3 class="name blue">{doc.Who.Title}</h3>
+          <h3 class="name text-main">{doc.Who.Title}</h3>
           <p class="desc">{doc.Who.Desc}</p>
         </div>
         <div class="sub">
-          <h3 class="name blue">{doc.Contact.Title}</h3>
+          <h3 class="name text-main">{doc.Contact.Title}</h3>
           <div class="desc cards">
             <For each={doc.Contact.Links} fallback={<div>No items</div>}>
               {(l) => (
