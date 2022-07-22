@@ -15,7 +15,7 @@ const doc = {
       Desc: "Complete gacha game to collect and trade manga characters. Front-End and API available for advanced use, to promote trades between players. Available on over 300 discord guilds, with thousands of players.",
       Link: "https://github.com/Karitham/WaifuBot",
       Image:
-        "https://raw.githubusercontent.com/go-waifubot/WaifuGUI/solidjs/src/assets/YMD.png",
+        "https://raw.githubusercontent.com/go-waifubot/WaifuGUI/solidjs/src/assets/icon.png",
     },
     {
       Name: "zp",
@@ -36,10 +36,10 @@ const doc = {
     },
     {
       Name: "WaifuGUI",
-      Desc: "A web based GUI for the waifu bot. Features a simple yet extensible interface to sort, search and compare user lists.",
-      Link: "https://github.com/go-waifubot/WaifuGUI",
+      Desc: "A web based GUI for the waifu bot. Designed from scratch, with a focus on simplicity and user experience.",
+      Link: "https://beta.waifugui.karitham.dev/#/list/206794847581896705",
       Image:
-        "https://raw.githubusercontent.com/go-waifubot/WaifuGUI/solidjs/src/assets/YMD.png",
+        "https://raw.githubusercontent.com/go-waifubot/WaifuGUI/solidjs/src/assets/icon.png",
     },
   ],
 };
